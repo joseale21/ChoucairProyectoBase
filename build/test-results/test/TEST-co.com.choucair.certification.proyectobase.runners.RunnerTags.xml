@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="co.com.choucair.certification.proyectobase.runners.RunnerTags" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="JASF" time="0.0">
   <properties/>
-  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@3ef5c470
+  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@6ee25961
 
 ?[31mFailed scenarios:?[0m
 ?[31msrc/test/resources/features/academyChoucair.feature:6 ?[0m# Search for a automation course
 
 1 Scenarios (?[31m1 failed?[0m)
-3 Steps (?[31m1 failed?[0m, ?[33m2 undefined?[0m)
-0m3,784s
+3 Steps (?[31m1 failed?[0m, ?[36m2 skipped?[0m)
+0m4,834s
 
 net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
 	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)
@@ -19,7 +19,7 @@ net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate cl
 	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:803)
 	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:791)
 	at net.serenitybdd.screenplay.actions.OpenPage.performAs(OpenPage.java:22)
-	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$elZ3Q0kj.performAs$accessor$ONCv5EGE(Unknown Source)
+	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$r6GjYfKD.performAs$accessor$2z96ZiiO(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -30,12 +30,12 @@ net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate cl
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$elZ3Q0kj.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$r6GjYfKD.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
 	at co.com.choucair.certification.proyectobase.tasks.OpenUp.performAs(OpenUp.java:18)
-	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$2OmNrOq7.performAs$accessor$wTQmQbFm(Unknown Source)
+	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$MrMKTl77.performAs$accessor$dPoOgPuf(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -46,7 +46,7 @@ net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate cl
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$2OmNrOq7.performAs(Unknown Source)
+	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$MrMKTl77.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
@@ -63,7 +63,7 @@ Caused by: net.thucydides.core.webdriver.DriverConfigurationError: Could not ins
 	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:803)
 	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:791)
 	at net.serenitybdd.screenplay.actions.OpenPage.performAs(OpenPage.java:22)
-	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$elZ3Q0kj.performAs$accessor$ONCv5EGE(Unknown Source)
+	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$r6GjYfKD.performAs$accessor$2z96ZiiO(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -74,12 +74,12 @@ Caused by: net.thucydides.core.webdriver.DriverConfigurationError: Could not ins
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$elZ3Q0kj.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.actions.OpenPage$ByteBuddy$r6GjYfKD.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
 	at co.com.choucair.certification.proyectobase.tasks.OpenUp.performAs(OpenUp.java:18)
-	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$2OmNrOq7.performAs$accessor$wTQmQbFm(Unknown Source)
+	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$MrMKTl77.performAs$accessor$dPoOgPuf(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,7 +90,7 @@ Caused by: net.thucydides.core.webdriver.DriverConfigurationError: Could not ins
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$2OmNrOq7.performAs(Unknown Source)
+	at co.com.choucair.certification.proyectobase.tasks.OpenUp$ByteBuddy$MrMKTl77.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
@@ -172,32 +172,6 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
 	at net.thucydides.core.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:169)
 	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:150)
 	... 103 more
-
-
-You can implement missing steps with the snippets below:
-
-
-@When("^he search for the course on the choucair academy plataform$")
-public void heSearchForTheCourseOnTheChoucairAcademyPlataform(DataTable arg1) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-    // E,K,V must be a scalar (String, Integer, Date, enum etc).
-    // Field names for YourType must match the column names in 
-    // your feature file (except for spaces and capitalization).
-    throw new PendingException();
-}
-
-@Then("^he finds the course called$")
-public void heFindsTheCourseCalled(DataTable arg1) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-    // E,K,V must be a scalar (String, Integer, Date, enum etc).
-    // Field names for YourType must match the column names in 
-    // your feature file (except for spaces and capitalization).
-    throw new PendingException();
-}
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 

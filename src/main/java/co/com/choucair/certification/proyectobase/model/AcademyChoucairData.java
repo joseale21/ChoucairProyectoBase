@@ -1,4 +1,4 @@
-package co.com.choucair.certification.proyectobase.model;
+/*package co.com.choucair.certification.proyectobase.model;
 
 public class AcademyChoucairData {
     private String strUser;
@@ -28,4 +28,4 @@ public class AcademyChoucairData {
     public void setStrCourse(String strCourse) {
         this.strCourse = strCourse;
     }
-}
+}*/

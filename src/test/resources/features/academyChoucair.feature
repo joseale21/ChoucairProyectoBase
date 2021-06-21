@@ -5,11 +5,5 @@ Feature: Academy Choucair
   @scenario1
   Scenario: Search for a automation course
     Given than dante wants to learn automation at the academy choucair
-      | strUser   | strPassword   |
-      | <strUser> | <strPassword> |
-    When he search for the course on the choucair academy plataform
-      | strCourse   |
-      | <strCourse> |
-    Then he finds the course called
-      | strCourse   |
-      | <strCourse> |
+    When he search for the course Recursos Automatización Bancolombia on the choucair academy plataform
+    Then he finds the course called resources Recursos Automatización Bancolombia
